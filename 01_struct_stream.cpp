@@ -96,8 +96,9 @@ int main()
     for ( int i = 0; i < num; i++){
         sum += art[i].preis*art[i].anzahl;
     }
-    cout  << setw(15) << "\t\t\t\t\t\t\t Summe: " << sum << endl;
+    cout  << setw(15) << "\t\t\t\t\t\t\t Summe: " << sum << endl ;
     return 0;
+
 }
 
 
