@@ -15,12 +15,13 @@ int main() {
     cout << "Gegenkathete: " << r.gegenkathete << endl;
 
 //dynamisch heap
-    dreieck *re = new dreieck;
+    dreieck* re = new dreieck;
 
     cout << "Ankathete: " << re->ankathete << endl;
+    (*re).ankathete = 1.0;
+    //delete re;
 
-    delete re;
-
+    (*re).gegenkathete = 3.0;
     cout << "Ankathete: " << re->ankathete << endl;
 
 }
