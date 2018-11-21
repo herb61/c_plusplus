@@ -44,7 +44,7 @@ struct artikel{
 };
 
 //main
-int main()
+void myStruct()
 {
     /*long   nummer = 0;
     int    anzahl = 0;
@@ -97,7 +97,6 @@ int main()
         sum += art[i].preis*art[i].anzahl;
     }
     cout  << setw(15) << "\t\t\t\t\t\t\t Summe: " << sum << endl ;
-    return 0;
 
 }
 

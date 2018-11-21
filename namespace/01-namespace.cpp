@@ -13,7 +13,7 @@ namespace zwei {
     }
 }
 
-int main() {
+void myNamespace() {
 
     eins::func(); //im ersten Namespace
     zwei::func(); //im zweiten Namespace
@@ -30,7 +30,6 @@ int main() {
     cout << internal  << c << endl ; //Ausgabe -123**
     cout << internal  << *c << endl ; //Ausgabe -123**
     cout << internal  << *p << endl ; //Ausgabe -123**
-    return 0;
 }
 
 

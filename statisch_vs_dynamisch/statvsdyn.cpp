@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void myStatic() {
     //static object
     struct dreieck{
         double gegenkathete = 12;
@@ -23,5 +23,16 @@ int main() {
 
     (*re).gegenkathete = 3.0;
     cout << "Ankathete: " << re->ankathete << endl;
+
+    cout << "Landes" << "berufsschule " << 4 << " in" << " Salzburg" << endl;
+
+    int myValue= 20;
+    int share = 2;
+    int &rMyValue = myValue;
+    rMyValue += 5;
+    (rMyValue) = 2;
+    myValue += 10;
+    rMyValue = share;
+    cout << "Wert: " << myValue << endl;
 
 }

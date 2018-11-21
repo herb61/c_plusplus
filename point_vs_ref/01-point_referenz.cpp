@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void myPointer() {
     int reference_var = 10;
     int reference_array[] = {11,22,33,44,55};
     int pointer_var = 20;
@@ -46,5 +46,4 @@ int main() {
 
     cout << "pointer_array_0: " << pointer_array[0] << " p_array_1: " << p_array +1 << endl;
 
-    return 0;
 }
